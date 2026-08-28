@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "1. **Header:** The header strip is light **pink** (not light-blue), but it is fully visible, large, and contains the round icon and hall name (\"قاعة لامور\") clearly.\n2. **Map:** The Google Map is large, prominent, and fully displayed without clipping.\n3. **Address & Button:** The address text is well-sized, and the \"Get Directions\" (افتح الموقع على الخريطة) button is large, centered, and clearly styled with a gold/brown border.\n4. **Layout Issues:** There are no clipping or layout issues; the card is clean, well-spaced, and follows the RTL format correctly.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1787830472,
+  "id": "202608271934299c906c26a1c74a2a",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608271934299c906c26a1c74a2a",
+  "usage": {
+    "completion_tokens": 139,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1500,
+    "prompt_tokens_details": {
+      "cached_tokens": 2
+    },
+    "total_tokens": 1639
+  }
+}

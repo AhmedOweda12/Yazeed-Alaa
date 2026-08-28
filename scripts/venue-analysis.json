@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the provided screenshot, here is the verification report:\n\n1.  **Position of Hall Cards:** **No.** The current view shows the \"Save the Date\" and \"Countdown Timer\" (قائمة العد التنازلي) sections. The specific hall cards for \"Lamore\" and \"Fayrouz\" are not visible in this image.\n2.  **Same Page/Google Maps:** **No.** There is no embedded Google Map or venue location information visible in this section of the page.\n3.  **Privacy Notice:** **No.** The text regarding photography restrictions is not present in this view.\n4.  **Visual Layout Issues:** **None.** The layout appears clean, well-aligned, and free of overlapping elements or broken formatting.\n\n**Summary:** This screenshot captures the top portion of the website (Date/Time info) but does **not** contain the Venue/Location section you are asking about.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1787765472,
+  "id": "20260827013107e29729b2e6a74f26",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "20260827013107e29729b2e6a74f26",
+  "usage": {
+    "completion_tokens": 195,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 1538,
+    "prompt_tokens_details": {
+      "cached_tokens": 1536
+    },
+    "total_tokens": 1733
+  }
+}

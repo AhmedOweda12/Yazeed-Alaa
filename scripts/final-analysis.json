@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "**Image 1 (Women's Hall - قاعة الفيروز):**\n1) **Yes**, the light pink header strip is clearly visible.\n2) **Yes**, the card is large with a big hall name, big Google Map, large address text, and a prominent gold button.\n3) **No**, there is no clipped text, overlapping elements, or broken layout.\n\n**Image 2 (Below the Women's Hall):**\n1) **N/A** (The colored header strip for the men's hall is not present in this view; only the privacy notice box is shown).\n2) **N/A** (No venue card with a map or button is visible in this screenshot).\n3) **No**, the layout of the privacy notice and text below it is clean without any clipping or overlapping.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1787830523,
+  "id": "202608271935190a16530bc41b4762",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608271935190a16530bc41b4762",
+  "usage": {
+    "completion_tokens": 165,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 2974,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 3139
+  }
+}

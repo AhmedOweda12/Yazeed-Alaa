@@ -1,0 +1,28 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Based on the provided screenshot of the Arabic RTL wedding website venue section on a mobile (390px) view:\n\n1.  **Card Stacking:** Yes, the cards stack cleanly. Each card follows a logical vertical layout: a header strip with the hall name and icon, followed by the Google Map embed, then the address/location text, and finally the gold action button at the bottom.\n2.  **Layout Issues:** There are no signs of text overflow or cut-off elements. The Arabic text is fully legible and properly contained within the card boundaries.\n3.  **Button Visibility:** The gold buttons (\"انقر للموقع على الخريطة\") are fully visible, centered, and not clipped in either of the displayed venue cards.\n\n**Note:** While the first card's layout is perfect, the second card (\"قاعة الزهور\") appears to have some overlapping UI elements (like the \"N\" compass and volume icons) that slightly obstruct the bottom-left area, though the core content and button remain intact.",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1787765531,
+  "id": "202608270132081f046a6cbc2f42e4",
+  "model": "glm-5v-turbo",
+  "object": "chat.completion",
+  "request_id": "202608270132081f046a6cbc2f42e4",
+  "usage": {
+    "completion_tokens": 207,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 473,
+    "prompt_tokens_details": {
+      "cached_tokens": 3
+    },
+    "total_tokens": 680
+  }
+}
