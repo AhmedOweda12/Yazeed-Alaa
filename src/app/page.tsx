@@ -7,7 +7,6 @@ import { Countdown } from "@/components/wedding/Countdown";
 import { PhotoBook } from "@/components/wedding/PhotoBook";
 import { Venue } from "@/components/wedding/Venue";
 import { Finale } from "@/components/wedding/Finale";
-import { MusicControl } from "@/components/wedding/MusicControl";
 import { PersistentCountdown } from "@/components/wedding/PersistentCountdown";
 
 /**
@@ -26,7 +25,6 @@ export default function Home() {
       <PhotoBook />
       <Venue />
       <Finale />
-      <MusicControl />
       <PersistentCountdown />
     </main>
   );
