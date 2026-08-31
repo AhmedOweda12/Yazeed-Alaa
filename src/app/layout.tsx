@@ -3,6 +3,7 @@ import { Cairo, Amiri, Tajawal, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import { WEDDING } from "@/lib/wedding-data";
+import { Analytics } from "@vercel/analytics/next";
 
 const cairo = Cairo({
   variable: "--font-cairo",
@@ -88,6 +89,7 @@ export default function RootLayout({
         />
         {children}
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
